@@ -1,0 +1,12 @@
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\bin\Debug\net6.0\MyILoggerLibrary.deps.json
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\bin\Debug\net6.0\MyILoggerLibrary.dll
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\bin\Debug\net6.0\MyILoggerLibrary.pdb
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.csproj.AssemblyReference.cache
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.AssemblyInfoInputs.cache
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.AssemblyInfo.cs
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.dll
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\refint\MyILoggerLibrary.dll
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\MyILoggerLibrary.pdb
+C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\MyILoggerLibrary\obj\Debug\net6.0\ref\MyILoggerLibrary.dll
