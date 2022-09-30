@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\MyILoggerLibrary\\MyILoggerLibrary.csproj": {}
+    "C:\\Users\\lalithashree.me\\source\\repos\\EmployeeWebAPI\\MyILoggerLibrary\\MyILoggerLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\MyILoggerLibrary\\MyILoggerLibrary.csproj": {
+    "C:\\Users\\lalithashree.me\\source\\repos\\EmployeeWebAPI\\MyILoggerLibrary\\MyILoggerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\MyILoggerLibrary\\MyILoggerLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\lalithashree.me\\source\\repos\\EmployeeWebAPI\\MyILoggerLibrary\\MyILoggerLibrary.csproj",
         "projectName": "MyILoggerLibrary",
-        "projectPath": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\MyILoggerLibrary\\MyILoggerLibrary.csproj",
+        "projectPath": "C:\\Users\\lalithashree.me\\source\\repos\\EmployeeWebAPI\\MyILoggerLibrary\\MyILoggerLibrary.csproj",
         "packagesPath": "C:\\Users\\lalithashree.me\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\MyILoggerLibrary\\obj\\",
+        "outputPath": "C:\\Users\\lalithashree.me\\source\\repos\\EmployeeWebAPI\\MyILoggerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

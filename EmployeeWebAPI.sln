@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeWebAPI", "EmployeeWebAPI\EmployeeWebAPI.csproj", "{D3B4F47F-B1D7-4947-94BB-8B85173A54FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyILoggerLibrary", "MyILoggerLibrary\MyILoggerLibrary.csproj", "{6B8CB15E-D9A8-4B98-8266-E9A873ABB565}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{D3B4F47F-B1D7-4947-94BB-8B85173A54FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B4F47F-B1D7-4947-94BB-8B85173A54FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B4F47F-B1D7-4947-94BB-8B85173A54FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B8CB15E-D9A8-4B98-8266-E9A873ABB565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B8CB15E-D9A8-4B98-8266-E9A873ABB565}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B8CB15E-D9A8-4B98-8266-E9A873ABB565}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B8CB15E-D9A8-4B98-8266-E9A873ABB565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

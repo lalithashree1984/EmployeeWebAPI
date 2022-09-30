@@ -278,3 +278,52 @@ Now listening on: http://localhost:5038
 Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\EmployeeWebAPI\
+Now listening on: http://localhost:5038
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\EmployeeWebAPI\
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Now listening on: http://localhost:5038
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\lalithashree.me\source\repos\EmployeeWebAPI\EmployeeWebAPI\
+This is GetEmployees Action Logging
+This is GetEmployees Action Warning
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+This is AddEmployee Action LoggingLalitha
+This is GetEmployees Action Warning
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+This is AddEmployee Action LoggingTanu
+This is GetEmployees Action Warning
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+This is AddEmployee Action LoggingSavitha
+This is GetEmployees Action Warning
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+This is GetEmployees Action Logging
+This is GetEmployees Action Warning
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Saved 1 entities to in-memory store.
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
+Entity Framework Core 6.0.9 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.9' with options: StoreName=EmployeeDb 
