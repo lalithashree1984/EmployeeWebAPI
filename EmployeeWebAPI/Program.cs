@@ -9,6 +9,7 @@ using EmployeeWebAPI.Services;
 using EmployeeWebAPI.MiddleWare;
 using Microsoft.Extensions.Configuration;
 using Serilog.Extensions.Logging.File;
+using EmployeeWebAPI.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();
@@ -34,6 +35,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services.AddScoped<IEmployeeDepartmentService, EmployeeDepartmentService>();
+builder.Services.AddAutoMapper(typeof(AutoMappingProfiles).Assembly);
 builder.Services.AddDbContext<EmployeeDBContext>(options => options.UseInMemoryDatabase("EmployeeDb"));
 //builder.Services.AddDbContext<EmployeeDBContext>(options =>
 //options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeConnectionString")));

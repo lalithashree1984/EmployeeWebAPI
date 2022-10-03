@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "S15X6z4DQWEWe+xEgE0dK5geXoQoHFTIsgJQ0WxTT7e4NU/8QSg5GA1G31N2YJzdP7OaSpXXmZINHn3esB/jOw==",
+  "dgSpecHash": "fzu2t/4Vipe+thrvCszfFlv+EpA39e84NfVReApbPBwV/KkO9i/0DXlInW2WzdbGhTC6LkiZWyDa64KvOjNIrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\EmployeeWebAPI\\EmployeeWebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lalithashree.me\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\lalithashree.me\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\lalithashree.me\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lalithashree.me\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.9\\microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
     "C:\\Users\\lalithashree.me\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",

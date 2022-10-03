@@ -1,5 +1,4 @@
-﻿using EmployeeWebAPI.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeWebAPI.Data
 {
