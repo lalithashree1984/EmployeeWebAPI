@@ -1641,6 +1641,34 @@
             "rid": "win"
           }
         }
+      },
+      "EmployeeDetailsModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeDetailsModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeDetailsModels.dll": {}
+        }
+      },
+      "EmployeeDetailsServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EmployeeDetailsModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeDetailsServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeDetailsServices.dll": {}
+        }
       }
     }
   },
@@ -4422,12 +4450,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EmployeeDetailsModels/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeDetailsServicesModels/EmployeeDetailsModels.csproj",
+      "msbuildProject": "../EmployeeDetailsServicesModels/EmployeeDetailsModels.csproj"
+    },
+    "EmployeeDetailsServices/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeServices/EmployeeDetailsServices.csproj",
+      "msbuildProject": "../EmployeeServices/EmployeeDetailsServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper >= 12.0.0",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "EmployeeDetailsServices >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.9",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.9",
@@ -4473,7 +4510,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\EmployeeServices\\EmployeeDetailsServices.csproj": {
+              "projectPath": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\EmployeeServices\\EmployeeDetailsServices.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4486,14 +4527,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[12.0.0, )"
-          },
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[12.0.0, )"
-          },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[6.0.9, )"

@@ -1,5 +1,4 @@
-﻿using DepartmentWebAPI.Controllers;
-using EmployeeWebAPI.Services;
+﻿using EmployeeDetailsServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeWebAPI.Controllers
@@ -7,8 +6,8 @@ namespace EmployeeWebAPI.Controllers
     public class EmployeeDepartmentController : Controller
     {
         private readonly IEmployeeDepartmentService employeeDepartmentService;
-        private readonly ILogger<DepartmentController> logger;
-        public EmployeeDepartmentController(IEmployeeDepartmentService employeeDepartmentService, ILogger<DepartmentController> logger)
+        private readonly ILogger<EmployeeDepartmentController> logger;
+        public EmployeeDepartmentController(IEmployeeDepartmentService employeeDepartmentService, ILogger<EmployeeDepartmentController> logger)
         {
             this.employeeDepartmentService = employeeDepartmentService;
             this.logger = logger;

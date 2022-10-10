@@ -1,0 +1,15 @@
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.csproj.AssemblyReference.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.AssemblyInfoInputs.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.AssemblyInfo.cs
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.csproj.CoreCompileInputs.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\bin\Debug\net6.0\EmployeeDetailsServices.deps.json
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\bin\Debug\net6.0\EmployeeDetailsServices.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\bin\Debug\net6.0\EmployeeDetailsServices.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\bin\Debug\net6.0\EmployeeDetailsModels.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\bin\Debug\net6.0\EmployeeDetailsModels.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.csproj.CopyComplete
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\refint\EmployeeDetailsServices.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\EmployeeDetailsServices.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeServices\obj\Debug\net6.0\ref\EmployeeDetailsServices.dll

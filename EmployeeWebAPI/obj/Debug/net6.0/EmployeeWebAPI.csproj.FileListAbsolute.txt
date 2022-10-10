@@ -164,3 +164,7 @@ C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\obj\Debug\net6.0
 C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\obj\Debug\net6.0\EmployeeWebAPI.csproj.CopyComplete
 C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\obj\Debug\net6.0\EmployeeWebAPI.genruntimeconfig.cache
 C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\obj\Debug\net6.0\ref\EmployeeWebAPI.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\bin\Debug\net6.0\EmployeeDetailsModels.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\bin\Debug\net6.0\EmployeeDetailsServices.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\bin\Debug\net6.0\EmployeeDetailsServices.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeWebAPI\bin\Debug\net6.0\EmployeeDetailsModels.pdb

@@ -1,6 +1,5 @@
-﻿using EmployeeWebAPI.Data;
-using EmployeeWebAPI.Models;
-using EmployeeWebAPI.Services;
+﻿using EmployeeDetailsModels.Models;
+using EmployeeDetailsServices.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Transactions;

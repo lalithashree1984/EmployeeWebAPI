@@ -1,15 +1,15 @@
-using EmployeeWebAPI.Data;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
 using Microsoft.EntityFrameworkCore.InMemory;
 using Microsoft.EntityFrameworkCore;
 using EmployeeWebAPI;
 using Serilog;
-using EmployeeWebAPI.Services;
 using EmployeeWebAPI.MiddleWare;
 using Microsoft.Extensions.Configuration;
 using Serilog.Extensions.Logging.File;
 using EmployeeWebAPI.Helpers;
+using EmployeeDetailsServices.Services;
+using EmployeeServices.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();

@@ -1,5 +1,5 @@
-﻿using EmployeeWebAPI.Models;
-using EmployeeWebAPI.Services;
+﻿using EmployeeDetailsModels.Models;
+using EmployeeDetailsServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentWebAPI.Controllers

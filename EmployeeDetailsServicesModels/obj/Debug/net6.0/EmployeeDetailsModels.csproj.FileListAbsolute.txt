@@ -1,0 +1,12 @@
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\bin\Debug\net6.0\EmployeeDetailsModels.deps.json
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\bin\Debug\net6.0\EmployeeDetailsModels.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\bin\Debug\net6.0\EmployeeDetailsModels.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.csproj.AssemblyReference.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.AssemblyInfoInputs.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.AssemblyInfo.cs
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.csproj.CoreCompileInputs.cache
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\refint\EmployeeDetailsModels.dll
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\EmployeeDetailsModels.pdb
+C:\Users\lalithashree.me\source\repos\New folder\EmployeeDetailsServicesModels\obj\Debug\net6.0\ref\EmployeeDetailsModels.dll

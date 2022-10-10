@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "EmployeeWebAPI/1.0.0": {
         "dependencies": {
-          "AutoMapper": "12.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EmployeeDetailsServices": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.9",
@@ -919,6 +918,24 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "EmployeeDetailsModels/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9"
+        },
+        "runtime": {
+          "EmployeeDetailsModels.dll": {}
+        }
+      },
+      "EmployeeDetailsServices/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EmployeeDetailsModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "runtime": {
+          "EmployeeDetailsServices.dll": {}
+        }
       }
     }
   },
@@ -1599,6 +1616,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "EmployeeDetailsModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeDetailsServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
