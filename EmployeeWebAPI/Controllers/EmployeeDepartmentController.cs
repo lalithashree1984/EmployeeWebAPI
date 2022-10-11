@@ -30,7 +30,7 @@ namespace EmployeeWebAPI.Controllers
                 logger.LogError("Error Logged", ex.Message);
                 return BadRequest(ex.Message);
             }
-            return NotFound();
+            return Ok("No employees found int the departmemnt");
         }
         [HttpGet]
         [Route("GetEmployeeGroupDepartment")]
@@ -42,7 +42,7 @@ namespace EmployeeWebAPI.Controllers
                 if (departmentEmployees.Count > 0)
                 { return Ok(departmentEmployees.ToList()); }
                 else
-                    return NotFound();
+                    return Ok("No employees found");
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
         }

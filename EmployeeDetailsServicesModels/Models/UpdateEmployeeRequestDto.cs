@@ -4,6 +4,10 @@ namespace EmployeeDetailsModels.Models
 {
     public class UpdateEmployeeRequestDto
     {
+        [Required]
+        [Range(1, 100, ErrorMessage = "Please enter a valid EmployeeId(1 to 100)")]
+        public int EmployeeId { get; set; }
+
         /// <summary>
         /// Employee Name
         /// </summary>

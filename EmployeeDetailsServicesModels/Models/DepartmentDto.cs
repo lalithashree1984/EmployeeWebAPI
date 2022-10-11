@@ -8,6 +8,7 @@ namespace EmployeeDetailsModels.Models
         /// DepartmentId
         /// </summary>
         [Required]
+        [Range(1, 100, ErrorMessage = "Please enter a valid DepartmentId(1 to 100)")]
         public int DepartmentId { get; set; }
 
         /// <summary>

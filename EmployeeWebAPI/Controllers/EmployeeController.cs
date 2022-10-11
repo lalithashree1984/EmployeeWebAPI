@@ -8,7 +8,7 @@ namespace EmployeeWebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class EmployeeController : Controller
+    public class EmployeeController : ControllerBase
     {
 
         private readonly IEmployeeService employeeService;
@@ -37,6 +37,7 @@ namespace EmployeeWebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid) { return BadRequest(ModelState); }
                 return Ok(await employeeService.AddEmployee(employee));
             }
             catch (Exception ex)
@@ -47,27 +48,26 @@ namespace EmployeeWebAPI.Controllers
             }
         }
 
-       
-
-       
-
-       
-
 
         [HttpPut]
-        [Route("{employeeId:int}")]
-        public async Task<IActionResult> UpdateEmployee([FromRoute] int employeeId, UpdateEmployeeRequestDto updateEmployee)
+        [Route("UpdateEmployee")]
+        public async Task<IActionResult> UpdateEmployee(UpdateEmployeeRequestDto updateEmployee)
         {
             try
             {
-                var employee = await employeeService.UpdateEmployee(employeeId, updateEmployee);
+                if (!ModelState.IsValid) { return BadRequest(ModelState); }
+                var employee = await employeeService.UpdateEmployee(updateEmployee.EmployeeId, updateEmployee);
                 if (employee != null)
                 {
                     return Ok(employee);
                 }
+                else
+                {
+                    return Ok("Employee not found");
+
+                }
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
-            return NotFound();
         }
 
         [HttpGet]
@@ -76,15 +76,26 @@ namespace EmployeeWebAPI.Controllers
         {
             try
             {
+                if (id > 100 || id < 0)
+                {
+
+                    ModelState.AddModelError("EmployeeId", "Employee Id is required and should be with 1 to 100.");
+                    return BadRequest(ModelState);
+                }
                 var employee = await employeeService.GetEmployeeById(id);
                 if (employee != null)
                 {
                     return Ok(employee);
 
                 }
+                else
+                {
+                    return Ok("Employee not found");
+
+                }
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
-            return NotFound();
+           
         }
 
        
@@ -96,6 +107,12 @@ namespace EmployeeWebAPI.Controllers
         {
             try
             {
+                if (id > 100 || id < 0)
+                {
+
+                    ModelState.AddModelError("EmployeeId", "Employee Id is required and should be with 1 to 100.");
+                    return BadRequest(ModelState);
+                }
                 var employee = await employeeService.DeleteEmployee(id);
                 if (employee != null)
                 {

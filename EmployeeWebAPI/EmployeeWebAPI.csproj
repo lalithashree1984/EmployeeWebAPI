@@ -47,4 +47,6 @@
     <ProjectReference Include="..\EmployeeServices\EmployeeDetailsServices.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties serilogs_4applogs_1log__JsonSchema="https://bitbucket.org/atlassianlabs/atlascode/raw/main/resources/schemas/pipelines-schema.json" /></VisualStudio></ProjectExtensions>
+
 </Project>

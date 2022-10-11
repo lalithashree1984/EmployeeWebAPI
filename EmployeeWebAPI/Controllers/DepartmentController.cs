@@ -4,7 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DepartmentWebAPI.Controllers
 {
-    public class DepartmentController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DepartmentController : ControllerBase
     {
         private readonly IDepartmentService departmentService;
         private readonly ILogger<DepartmentController> logger;
@@ -29,25 +31,36 @@ namespace DepartmentWebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 return Ok(await departmentService.AddDepartment(department));
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
 
         }
         [HttpPut]
-        [Route("UpdateDepartment/{id:int}")]
-        public async Task<IActionResult> UpdateDepartment([FromRoute] int id, UpdateDepartmentRequestDto updatedepartment)
+        [Route("UpdateDepartment")]
+        public async Task<IActionResult> UpdateDepartment(UpdateDepartmentRequestDto updatedepartment)
         {
             try
             {
-                var department = await departmentService.UpdateDepartment(id, updatedepartment);
+                if (!ModelState.IsValid)
+                { 
+                    return BadRequest(ModelState); 
+                }
+                var department = await departmentService.UpdateDepartment(updatedepartment.DepartmentId, updatedepartment);
                 if (department != null)
                 {
                     return Ok(department);
                 }
+                else
+                {
+                    return Ok("Department not found");
+                }
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
-            return NotFound();
         }
 
         [HttpGet]
@@ -56,14 +69,24 @@ namespace DepartmentWebAPI.Controllers
         {
             try
             {
+                if (id > 100 || id < 0)
+                {
+
+                    ModelState.AddModelError("DepartmentId", "Department Id is required and should be with 1 to 100.");
+                    return BadRequest(ModelState);
+                }
                 var department = await departmentService.GetDepartmentById(id);
                 if (department != null)
                 {
                     return Ok(department);
                 }
+                else
+                {
+
+                    return Ok("Department not found");
+                }
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
-            return NotFound();
         }
         [HttpDelete]
         [Route("DeleteDepartment/{id:int}")]
@@ -71,18 +94,23 @@ namespace DepartmentWebAPI.Controllers
         {
             try
             {
+                if (id > 100 || id < 0)
+                {
+
+                    ModelState.AddModelError("DepartmentId", "Department Id is required and should be with 1 to 100.");
+                    return BadRequest(ModelState);
+                }
                 var department = await departmentService.DeleteDepartment(id);
                 if (department != null)
                 {
                     return Ok(department);
                 }
+                {
+
+                    return Ok("Department not found");
+                }
             }
             catch (Exception ex) { logger.LogError("Error Logged", ex.Message); return BadRequest(ex.Message); }
-            return NotFound();
-
         }
-
-       
-
     }
 }
