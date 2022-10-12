@@ -12,6 +12,8 @@ using EmployeeDetailsServices.Services;
 using EmployeeServices.Data;
 using EmployeeDetailsModels.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();
@@ -33,6 +35,9 @@ builder.Services.AddControllersWithViews().AddNewtonsoftJson
 (options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
 .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddMvc()
+        .AddNewtonsoftJson()
+        .AddXmlSerializerFormatters();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();

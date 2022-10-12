@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "2902tDLkFG/7WO7CZRgjJhYTGIAppPLUXs3LcVHQht8=",
+  "Source": "EmployeeWebAPIXml",
+  "BasePath": "_content/EmployeeWebAPIXml",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\lalithashree.me\\source\\repos\\New folder\\EmployeeWebAPI\\EmployeeWebAPI.csproj",
+      "Version": 2,
+      "Source": "EmployeeWebAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

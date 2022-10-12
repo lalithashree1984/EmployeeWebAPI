@@ -2,6 +2,7 @@
 
 namespace EmployeeDetailsModels.Models
 {
+    
     public class DepartmentDto
     {
         /// <summary>

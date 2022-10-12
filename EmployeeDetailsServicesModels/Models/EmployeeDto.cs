@@ -21,7 +21,7 @@ namespace EmployeeDetailsModels.Models
         /// EmployeeId
         /// </summary>
         [Required]
-        [Range(1, 100, ErrorMessage = "Please enter a valid EmployeeId(1 to 100)")]
+        [Range(1, 100, ErrorMessage = "Please enter a valid Department(1 to 100)")]
         public int DepartmentId { get; set; }
     }
 }

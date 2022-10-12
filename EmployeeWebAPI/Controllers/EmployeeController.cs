@@ -31,6 +31,7 @@ namespace EmployeeWebAPI.Controllers
                 return BadRequest();
             }
         }
+
         [Route("AddEmployee")]
         [HttpPost]
         public async Task<IActionResult> AddEmployee(EmployeeDto employee)
@@ -47,7 +48,24 @@ namespace EmployeeWebAPI.Controllers
 
             }
         }
+        
+        [Route("AddEmployeeXml")]
+        [HttpPost]
+        [Consumes("application/xml")]
+        public async Task<IActionResult> AddEmployeeXml(EmployeeDto employee)
+        {
+            try
+            {
+                if (!ModelState.IsValid) { return BadRequest(ModelState); }
+                return Ok(await employeeService.AddEmployee(employee));
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("Error Logged", ex.Message);
+                return BadRequest(ex.Message);
 
+            }
+        }
 
         [HttpPut]
         [Route("UpdateEmployee")]

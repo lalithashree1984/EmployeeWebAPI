@@ -27,6 +27,7 @@ namespace DepartmentWebAPI.Controllers
         }
         [Route("AddDepartment")]
         [HttpPost]
+        [Consumes("application/xml")]
         public async Task<IActionResult> AddDepartment(DepartmentDto department)
         {
             try
